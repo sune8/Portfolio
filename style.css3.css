@@ -1,0 +1,123 @@
+body{
+    margin: 10px;
+    background-color: black;
+    font-family: "Press Start 2P", sans-serif;
+    border: solid 5px white;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+p{
+    color: white;
+    margin: 10px;
+    text-align: center;
+}
+
+a{
+    color: white;
+}
+
+.profilbillede{
+    width: 30%;
+    border: solid 5px white;
+    margin: 15px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: solid 5px white;
+    background-color: darkred;
+    width: 90%;
+    margin: 15px;
+}
+
+.dyreværnetbillede{
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    width: 90%;
+    margin: 15px;
+}
+
+.container4{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: solid 5px white;
+    background-color: black;
+    width: 90%;
+    margin: 15px;
+}
+
+.liste{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin: 15px;
+}
+
+.billede{
+    width: 95%;
+    margin-bottom: 10px;
+}
+
+.scroll {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    border: solid 5px white;
+    background-color: black;
+    width: 90%;
+    margin: 15px;
+    overflow: auto;
+    white-space: nowrap;
+    scroll-snap-type: y mandatory;
+}
+
+.hjemmesidebilleder{
+    width: 95%;
+    margin-bottom: 10px;
+}
+
+.container5{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: solid 5px white;
+    background-color: black;
+    width: 90%;
+    height: 100px;
+    margin: 15px;
+}
